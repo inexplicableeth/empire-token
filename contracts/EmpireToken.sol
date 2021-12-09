@@ -15,7 +15,7 @@ contract EmpireToken is
     Ownable,
     Pausable
 {
-    uint256 public MAX_SUPPLY = 1 * 10**9 * 18**18; //1billion
+    uint256 public MAX_SUPPLY = 1 * 10**9 * 10**18; //1billion
 
     constructor() {
         _mint(msg.sender, MAX_SUPPLY);
