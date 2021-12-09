@@ -42,7 +42,8 @@
     "hardhat": "npx hardhat",
     "accounts": "npx hardhat accounts",
     "balances": "npx hardhat balances",
-    "fund-cchain-addresses": "npx hardhat run scripts/fund-cchain-addresses.js"
+    "fund-cchain-addresses": "npx hardhat run scripts/fund-cchain-addresses.js",
+    "mnemonic": "npx ts-node scripts/genMnemonic.ts"
   },
   "dependencies": {
     "typescript": "^4.3.5"
